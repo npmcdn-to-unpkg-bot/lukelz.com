@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{item.item_name}}</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>{{ item.item_name }}</h1>
+            <h3 style="color: green;">Price: ${{ item.price }} per item</h3>
+            <h3 style="color: red;">Total Amazon Cost: ${{ item.format_amazon_cost }} per item</h3>
+            <h3>Other costs must be less than: ${{ item.profit }} per item</h3>
+        </div>
+    </div>
+    <div class="container">
+        <h3>Referral Cost: ${{ item.format_referral_cost }} per item</h3>
+        <h3>Variable Cost: ${{ item.format_variable_cost }} per item</h3>
+        <h3>Fulfillment Cost: ${{ item.format_fulfillment_cost }} per item</h3>
+        <h3>Storage Cost: ${{ item.format_storage_cost }} per item</h3>
+        <h5>estimated average order size: {{ item.average_order_size }} item(s)</h5>
+        <h5>estimated average time stored: {{ item.average_time_stored }} month</h5>
+        <h5>shipping method: {{ item.shipping_type }}</h5>
+        <p>To reconfigure
+            <!-- CHANGE THIS -->
+            <a href="../nonmediaitem/{{ id }}/change">click here</a>
+        </p>
+    </div>
+</body>
+
+</html>
