@@ -1,6 +1,6 @@
 {% load staticfiles %}
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -16,12 +16,25 @@
     <link href="{% static 'css/style.css' %}" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Moment -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Full calendar -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.print.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.0/gcal.js"></script>
+    <!-- React -->
+    <script src="https://npmcdn.com/react@15.3.1/dist/react.js"></script>
+    <script src="https://npmcdn.com/react-dom@15.3.1/dist/react-dom.js"></script>
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
 </head>
 
 <body>
-    <div class="home-top">
+    <div>
         <!-- Static navbar -->
-        <nav class="navbar navbar-clear">
+        <nav class="navbar navbar-inverse">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -43,24 +56,23 @@
             </div>
             <!--/.container-fluid -->
         </nav>
-
-        <div class="jumbotron jumbotron-clear" style="text-align: center;">
-            <h1>Data for a path to that</h1>
-            <h1>overrated office view.</h1>
-        </div>
     </div>
-    <!-- /container -->
-    <!-- Main component for a primary marketing message or call to action -->
+    <div id="calendar" class="container"></div>
+    <script>
+    $(document).ready(function() {
+        $('#calendar').fullCalendar({
+            googleCalendarApiKey: 'AIzaSyBIrjhdUR3niPK1ozEZ-ApxZ1tcyDFeSYc',
+            events: {
+                googleCalendarId: ' en.usa#holiday@group.v.calendar.google.com',
+                className: 'holiday-event'
+            }
+        });
 
-    <div class="jumbotron">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>My name is Luke Zhu. I am freshman at Brown University interested in statistics and optimization.</p>
-    </div>
+    });
+    </script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 

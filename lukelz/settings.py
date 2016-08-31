@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home.apps.HomeConfig',
     'ecommerce.apps.EcommerceConfig',
+    'taskscheduler.apps.TaskschedulerConfig',
 ]
 
 MIDDLEWARE = [
@@ -132,11 +133,10 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 STATIC_URL = '/static/'
 
 # Extra places for collectstatic to find static files.
-"""
-STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, 'static'),
-)
-"""
+# This doesn't work with Heroku!
+# STATICFILES_DIRS = (
+#    os.path.join(PROJECT_ROOT, 'static'),
+# )
 
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
