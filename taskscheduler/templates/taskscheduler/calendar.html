@@ -22,7 +22,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <!-- Full calendar -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.print.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.print.css" media="print" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.0/gcal.js"></script>
     <!-- React -->
@@ -61,13 +61,26 @@
     <script>
     $(document).ready(function() {
         $('#calendar').fullCalendar({
+            height: $(window).height() * 0.83,
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month,agendaWeek,agendaDay'
+            },
             googleCalendarApiKey: 'AIzaSyBIrjhdUR3niPK1ozEZ-ApxZ1tcyDFeSYc',
             events: {
-                googleCalendarId: 'en.usa#holiday@group.v.calendar.google.com',
+                googleCalendarId: 'luke_zhu@brown.edu',
                 className: 'holiday-event'
             }
         });
 
+        // Check if calendar exists, then resizes calendar height
+        if(calendar) {
+          $(window).resize(function() {
+            var calHeight = $(window).height()*0.83;
+            $('#calendar').fullCalendar('option', 'height', calHeight);
+          });
+        };        
     });
     </script>
     <!-- Bootstrap core JavaScript
