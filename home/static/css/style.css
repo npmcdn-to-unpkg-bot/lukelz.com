@@ -1,28 +1,31 @@
 body {
-    font-family: 'Avenir Next'
+  font-family: "Avenir Next"
 }
 
 .bar {
   fill: purple;
 }
 
-.axis path, .axis line {
+.axis path,
+.axis line {
   fill: none;
   stroke: black;
   shape-rendering: crispEdges;
 }
 
+
 /* Background images */
+
 .home-top {
-    background-image: url("../images/hongkong_skyline.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../images/hongkong_skyline.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .projects-top {
-    background: white url("../images/chicago_lake.jpg") center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: white url("../images/chicago_lake.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .jumbotron {
@@ -36,40 +39,63 @@ body {
 }
 
 .navbar-clear .navbar-brand {
-    color: white;
+  color: white;
 }
+
 .navbar-clear {
-    font-size: 14px;
-    background-color: transparent;
-    border-width: 0px;
-    border-radius: 4px;
+  font-size: 14px;
+  background-color: transparent;
+  border-width: 0px;
+  border-radius: 4px;
 }
+
 .navbar-clear .navbar-nav>li>a {
-    color: white;
-    background-color: transparent;
+  color: white;
+  background-color: transparent;
 }
+
 .navbar-clear .navbar-nav>li>a:hover,
 .navbar-clear .navbar-nav>li>a:focus {
-    color: #dddddd;
-    background-color: transparent;
+  color: #dddddd;
+  background-color: transparent;
 }
+
 .navbar-clear .navbar-nav>.active>a,
 .navbar-clear .navbar-nav>.active>a:hover,
 .navbar-clear .navbar-nav>.active>a:focus {
-    color: white;
-    background-color: transparent;
+  color: white;
+  background-color: transparent;
 }
+
 .navbar-clear .navbar-toggle {
-    border-color: #ffffff;
+  border-color: #ffffff;
 }
+
 .navbar-clear .navbar-toggle:hover,
 .navbar-clear .navbar-toggle:focus {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
+
 .navbar-clear .navbar-toggle .icon-bar {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
+
 .navbar-clear .navbar-toggle:hover .icon-bar,
 .navbar-clear .navbar-toggle:focus .icon-bar {
-    background-color: #ffffff;
+  background-color: #ffffff;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
 }

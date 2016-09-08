@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'home.apps.HomeConfig',
     'ecommerce.apps.EcommerceConfig',
     'taskscheduler.apps.TaskschedulerConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

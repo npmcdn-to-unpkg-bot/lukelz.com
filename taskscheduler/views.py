@@ -1,5 +1,7 @@
 from django.shortcuts import render
+
 from rest_framework import viewsets
+
 from .serializers import ReminderSerializer, TaskSerializer, EventSerializer, CalendarSerializer
 from .models import Reminder, Task, Event, Calendar
 

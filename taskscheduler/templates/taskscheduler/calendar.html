@@ -1,92 +1,92 @@
 {% load staticfiles %}
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="My Personal Website">
-    <meta name="author" content="Luke Zhu">
-    <title>Home Page</title>
-    <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Personal stylesheet -->
-    <link href="{% static 'css/style.css' %}" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Moment -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
-    <!-- Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <!-- Full calendar -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.print.css" media="print" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.0/gcal.js"></script>
-    <!-- React -->
-    <script src="https://npmcdn.com/react@15.3.1/dist/react.js"></script>
-    <script src="https://npmcdn.com/react-dom@15.3.1/dist/react-dom.js"></script>
-    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="My Personal Website">
+  <meta name="author" content="Luke Zhu">
+  <title>Home Page</title>
+  <!-- Bootstrap core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Personal stylesheet -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Moment -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <!-- Full calendar -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.print.css" media="print" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.0/gcal.js"></script>
+  <!-- React -->
+  <script src="https://npmcdn.com/react@15.3.1/dist/react.js"></script>
+  <script src="https://npmcdn.com/react-dom@15.3.1/dist/react-dom.js"></script>
+  <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
 </head>
 
 <body>
-    <div>
-        <!-- Static navbar -->
-        <nav class="navbar navbar-inverse">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Lukelz</a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="{% url 'home' %}">Home</a></li>
-                        <li><a href="{% url 'resume' %}">Resume</a></li>
-                        <li><a href="{% url 'projects' %}">Projects</a></li>
-                    </ul>
-                </div>
-                <!--/.nav-collapse -->
-            </div>
-            <!--/.container-fluid -->
-        </nav>
-    </div>
-    <div id="calendar" class="container"></div>
-    <script>
-    $(document).ready(function() {
-        $('#calendar').fullCalendar({
-            height: $(window).height() * 0.83,
-            header: {
-                left: 'prev,next today',
-                center: 'title',
-                right: 'month,agendaWeek,agendaDay'
-            },
-            googleCalendarApiKey: 'AIzaSyBIrjhdUR3niPK1ozEZ-ApxZ1tcyDFeSYc',
-            events: {
-                googleCalendarId: 'luke_zhu@brown.edu',
-                className: 'holiday-event'
-            }
-        });
+  <div>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Lukelz</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'resume' %}">Resume</a></li>
+            <li><a href="{% url 'projects' %}">Projects</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+      <!--/.container-fluid -->
+    </nav>
+  </div>
 
-        // Check if calendar exists, then resizes calendar height
-        if(calendar) {
-          $(window).resize(function() {
-            var calHeight = $(window).height()*0.83;
-            $('#calendar').fullCalendar('option', 'height', calHeight);
-          });
-        };        
+  <div id="calendar" class="container"></div>
+  <script>
+  $(document).ready(function() {
+    $('#calendar').fullCalendar({
+      height: $(window).height() * 0.83,
+      header: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'month,agendaWeek,agendaDay'
+      },
+      googleCalendarApiKey: 'AIzaSyBIrjhdUR3niPK1ozEZ-ApxZ1tcyDFeSYc',
+      events: {
+        googleCalendarId: 'luke_zhu@brown.edu',
+        className: 'holiday-event',
+      }
     });
-    </script>
-    <!-- Bootstrap core JavaScript
+    // Check if calendar exists, then resizes calendar height
+    if (calendar) {
+      $(window).resize(function() {
+        var calHeight = $(window).height() * 0.83;
+        $('#calendar').fullCalendar('option', 'height', calHeight);
+      });
+    }
+  });
+  </script>
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>

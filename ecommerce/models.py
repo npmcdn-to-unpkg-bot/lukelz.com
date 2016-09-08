@@ -1,9 +1,29 @@
 from time import strftime, gmtime
+
 from django.db import models
 from django.contrib.auth.models import User
 
-# Create your models here.
 class NonMediaItem(models.Model):
+    """Attributes:
+    item_name (string):
+    price (float): dollars
+    weight (float): pounds
+    unit_volume: float, cubic feet
+    length: float, inches
+    width: float, inches
+    height: float, inches
+    item_size: 'string' w/ choices
+    item_category: 'string' w/ choices
+    shipping_type: 'string' w/ choices
+    is_fulfilled: boolean
+    item_fulfillment_cost: dollars
+    zero_fulfimment_item: boolean
+    average_order_size: Average number of items per order
+    average_time_stored: Average number of months before item is sold
+    updated: date last updated
+    created date
+    owner
+    """
     item_name = models.CharField(max_length=150)
     price = models.FloatField() # in dollars
 
@@ -34,7 +54,7 @@ class NonMediaItem(models.Model):
 
     updated = models.DateTimeField(auto_now=True)
     created = models.DateTimeField(auto_now=True)
-    creator = models.ForeignKey(User, blank=True, null=True)
+    owner = models.ForeignKey(User, related_name='nonmediaitems')
 
     def __str__(self):
         return self.item_name
@@ -45,7 +65,7 @@ class NonMediaItem(models.Model):
 
     @property
     def format_amazon_cost(self):
-        return self.total_amazon_cost()
+        return "{0:.2f}".format(self.total_amazon_cost())
     
     def total_amazon_cost(self):
         return round(self.referral_cost() + self.variable_cost() + self.fulfillment_cost() + self.storage_cost(), 2)

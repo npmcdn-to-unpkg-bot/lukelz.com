@@ -1,0 +1,411 @@
+{
+    "DevOps": {
+        "Cloud Hosting": {
+            "Amazon EC2": 43,
+            "Google Compute Engine": 1,
+            "OVH": 2,
+            "OpenStack": 3,
+            "Rackspace Cloud Servers": 2,
+            "SoftLayer": 3,
+            "Windows Azure": 1
+        },
+        "Cloud Storage": {
+            "Amazon EBS": 13,
+            "Amazon S3": 34,
+            "Box": 2,
+            "Dropbox": 6,
+            "Google Drive": 5
+        },
+        "Container Tools": {
+            "Amazon EC2 Container Service": 2,
+            "Docker": 13,
+            "Joyent": 2,
+            "Vagrant": 8,
+            "VirtualBox": 2,
+            "boot2docker": 1
+        },
+        "Content Delivery Network (CDN)": {
+            "Akamai": 1,
+            "Amazon CloudFront": 61,
+            "CloudFlare": 17,
+            "Fastly": 2,
+            "Incapsula": 3,
+            "MaxCDN": 7
+        },
+        "Continuous Integration": {
+            "CircleCI": 6,
+            "Codeship": 2,
+            "Jenkins": 7,
+            "Solano CI": 4,
+            "TeamCity": 1,
+            "Travis CI": 8
+        },
+        "Domain Management": {
+            "Amazon Route 53": 14,
+            "DNSimple": 3,
+            "Dyn": 4
+        },
+        "Log Management": {
+            "Loggly": 1,
+            "Logstash": 6,
+            "Papertrail": 2
+        },
+        "Monitoring": {
+            "Airbrake": 2,
+            "Amazon CloudWatch": 3,
+            "Boundary": 1,
+            "Bugsnag": 8,
+            "Crashlytics": 1,
+            "Crittercism": 1,
+            "Datadog": 3,
+            "Errorception": 1,
+            "Grafana": 1,
+            "Graphite": 3,
+            "Honeybadger": 3,
+            "Kibana": 4,
+            "Librato": 4,
+            "Nagios": 4,
+            "New Relic": 46,
+            "PagerDuty": 2,
+            "Pingdom": 11,
+            "Rollbar": 7,
+            "Scout": 3,
+            "Sensu": 1,
+            "Sentry": 8,
+            "Server Density": 4,
+            "Stackdriver": 1,
+            "StatsD": 3,
+            "TrackJS": 1
+        },
+        "Platform as a Service": {
+            "AWS Elastic Beanstalk": 2,
+            "Firebase": 2,
+            "Google App Engine": 4,
+            "Heroku": 13
+        },
+        "Server Management": {
+            "Ansible": 5,
+            "Apache Mesos": 2,
+            "Capistrano": 3,
+            "Chef": 12,
+            "Packer": 1,
+            "Puppet Labs": 4,
+            "Salt": 1
+        }
+    },
+    "Engineering": {
+        "API Tools": {
+            "Postman": 2,
+            "Runscope": 2,
+            "Zapier": 6
+        },
+        "Application Frameworks": {
+            ".NET": 1,
+            "Android SDK": 4,
+            "AngularJS": 20,
+            "Backbone.js": 37,
+            "CodeIgniter": 3,
+            "Django": 13,
+            "Ember.js": 6,
+            "Flask": 5,
+            "Foundation": 5,
+            "Grails": 2,
+            "Laravel": 2,
+            "Node.js": 25,
+            "Ruby on Rails": 48,
+            "Sinatra": 3,
+            "Symfony": 1
+        },
+        "Build Tools": {
+            "Brunch": 1,
+            "Gradle": 2,
+            "Grunt": 2,
+            "Webpack": 2,
+            "gulp": 3
+        },
+        "Caching": {
+            "Amazon ElastiCache": 8,
+            "MemCachier": 4,
+            "Memcached": 17,
+            "Varnish": 16
+        },
+        "Charts": {
+            "D3.js": 11,
+            "Highcharts": 2
+        },
+        "Code Management": {
+            "Code Climate": 6,
+            "Coveralls": 4,
+            "Git": 15,
+            "GitHub": 25,
+            "Phabricator": 2
+        },
+        "Data Processing": {
+            "AWS Lambda": 1,
+            "Amazon EMR": 3,
+            "Amazon Redshift": 7,
+            "Apache Spark": 1,
+            "Impala": 1,
+            "Storm": 1
+        },
+        "Databases": {
+            "Amazon DynamoDB": 8,
+            "Amazon RDS": 13,
+            "Amazon RDS for PostgreSQL": 2,
+            "Cassandra": 6,
+            "HBase": 6,
+            "Hadoop": 11,
+            "InfluxDB": 1,
+            "MariaDB": 2,
+            "Microsoft SQL Server": 1,
+            "MongoDB": 24,
+            "MySQL": 42,
+            "Neo4j": 1,
+            "PostgreSQL": 37,
+            "Redis": 50,
+            "Riak": 3
+        },
+        "Image Processing": {
+            "Aviary": 1,
+            "imgix": 2
+        },
+        "Integrated Development Environment (IDE)": {
+            "CodeMirror": 1,
+            "RubyMine": 2,
+            "Sublime Text": 1,
+            "Vim": 3,
+            "Xcode": 7
+        },
+        "Languages": {
+            "C": 4,
+            "C#": 1,
+            "C++": 6,
+            "Clojure": 5,
+            "CoffeeScript": 8,
+            "Elixir": 2,
+            "Erlang": 7,
+            "Go": 10,
+            "HAML": 4,
+            "HTML5": 21,
+            "Haskell": 2,
+            "Java": 29,
+            "Javascript": 75,
+            "Less": 3,
+            "Markdown": 5,
+            "Mustache": 5,
+            "Objective-C": 16,
+            "PHP": 31,
+            "Perl": 6,
+            "Python": 41,
+            "R": 5,
+            "Ruby": 43,
+            "Sass": 16,
+            "Scala": 3,
+            "Swift": 4,
+            "elixir": 2
+        },
+        "Libraries and SDKs": {
+            "Flux": 3,
+            "Handlebars.js": 5,
+            "Ionic": 1,
+            "PostGIS": 1,
+            "React": 19,
+            "Twitter Bootstrap": 28,
+            "Underscore": 22,
+            "WebRTC": 1,
+            "Zepto": 2,
+            "jQuery": 34,
+            "jQuery UI": 8
+        },
+        "Maps": {
+            "Google Maps": 3,
+            "Leaflet": 2
+        },
+        "Message Queue": {
+            "Amazon SQS": 6,
+            "Celery": 5,
+            "IronMQ": 1,
+            "Kafka": 8,
+            "NSQ": 2,
+            "RabbitMQ": 13,
+            "Resque": 2,
+            "Sidekiq": 6
+        },
+        "Messaging": {
+            "Amazon SNS": 1,
+            "Pusher": 4,
+            "Urban Airship": 1
+        },
+        "Package Management": {
+            "Browserify": 4,
+            "RequireJS": 12,
+            "npm": 4
+        },
+        "Search": {
+            "Algolia": 1,
+            "Elasticsearch": 9,
+            "Lucene": 1,
+            "Solr": 7,
+            "Swiftype": 5
+        },
+        "Security and Authentication": {
+            "Authy": 3
+        },
+        "Testing Frameworks": {
+            "AppThwack": 1,
+            "Appium": 1,
+            "BrowserStack": 2,
+            "Jasmine": 2,
+            "Karma": 1,
+            "Mocha": 2,
+            "PhantomJS": 1,
+            "Rainforest QA": 1,
+            "Selenium": 3
+        },
+        "Web Servers": {
+            "Apache HTTP Server": 17,
+            "Cowboy": 2,
+            "Gunicorn": 1,
+            "Passenger": 5,
+            "Puma": 2,
+            "Unicorn": 6,
+            "nginx": 67
+        }
+    },
+    "Operations": {
+        "Accounting": {
+            "Quickbooks": 1,
+            "Xero": 2
+        },
+        "Communications": {
+            "Flowdock": 1,
+            "Google Apps": 95,
+            "HipChat": 13,
+            "Slack": 16
+        },
+        "Customer Support": {
+            "Desk.com": 3,
+            "Help Scout": 13,
+            "Olark": 9,
+            "SnapEngage": 4,
+            "Zendesk": 38,
+            "Zopim": 1
+        },
+        "H.R.": {
+            "AnyPerk": 2,
+            "Gusto": 2
+        },
+        "Legal": {
+            "DocuSign": 1
+        },
+        "Payments": {
+            "Baremetrics": 5,
+            "Braintree": 8,
+            "PayPal": 1,
+            "Stripe": 18,
+            "Zuora": 5
+        },
+        "Recruiting": {
+            "AngelList Talent": 61,
+            "Greenhouse": 2,
+            "Upwork": 2
+        }
+    },
+    "Products": {
+        "Advertising": {
+            "AdRoll": 24,
+            "Perfect Audience": 3
+        },
+        "Analytics": {
+            "Chartbeat": 7,
+            "ClickTale": 2,
+            "Crazy Egg": 9,
+            "Geckoboard": 2,
+            "GoodData": 3,
+            "Google Analytics": 6,
+            "Heap": 3,
+            "KISSmetrics": 7,
+            "Keen IO": 1,
+            "Looker": 3,
+            "Mixpanel": 39,
+            "Nicereply": 1,
+            "Optimizely": 36,
+            "Piwik": 6,
+            "Segment": 8,
+            "Visual Website Optimizer": 1,
+            "Wistia": 3
+        },
+        "Bug Tracking": {
+            "JIRA": 12
+        },
+        "Design Tools": {
+            "Balsamiq": 4,
+            "Framer": 1,
+            "InVision": 13,
+            "Proto.io": 1,
+            "Sketch": 2
+        },
+        "Project Management": {
+            "Asana": 8,
+            "Basecamp": 1,
+            "Blossom": 1,
+            "Confluence": 4,
+            "Pivotal Tracker": 3,
+            "Trello": 12,
+            "iDoneThis": 5
+        },
+        "SEO and SEM": {
+            "Ahrefs": 2
+        },
+        "User Feedback": {
+            "Get Satisfaction": 1,
+            "Typeform": 2
+        }
+    },
+    "Sales and Marketing": {
+        "Community Management": {
+            "Buffer": 3,
+            "Disqus": 3,
+            "Hootsuite": 1,
+            "Qualaroo": 10
+        },
+        "Content Management Systems (CMS)": {
+            "Drupal": 2,
+            "GitHub Pages": 3,
+            "Jekyll": 1,
+            "Unbounce": 1,
+            "WordPress": 12
+        },
+        "Customer Relationship Management (CRM)": {
+            "Close.io": 1,
+            "CloudSponge": 1,
+            "HubSpot": 7,
+            "Intercom": 8,
+            "Marketo": 12,
+            "Salesforce Sales Cloud": 8
+        },
+        "E-commerce": {
+            "Spree": 2
+        },
+        "Email": {
+            "Amazon SES": 10,
+            "Campaign Monitor": 4,
+            "Customer.io": 4,
+            "Mad Mimi": 2,
+            "MailChimp": 7,
+            "Mailgun": 24,
+            "Mandrill": 26,
+            "Postmark": 2,
+            "SendGrid": 50
+        },
+        "Lead Generation": {
+            "FullContact": 3
+        },
+        "Voice and SMS": {
+            "Grasshopper": 1,
+            "Nexmo": 1,
+            "Plivo": 1,
+            "Twilio": 11
+        }
+    }
+}

@@ -1,0 +1,2604 @@
+[
+    {
+        "socotra": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Insurance"
+            ],
+            "size": "11-50",
+            "stack": {
+                "Docker": {
+                    "category": "Container Tools",
+                    "root_category": "DevOps"
+                },
+                "GitHub": {
+                    "category": "Code Management",
+                    "root_category": "Engineering"
+                },
+                "Java": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Python": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "React": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "Selenium": {
+                    "category": "Testing Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Slack": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                }
+            }
+        }
+    },
+    {
+        "magic": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "SMS",
+                "Logistics",
+                "Mobile Commerce",
+                "Sharing Economy"
+            ],
+            "size": "",
+            "stack": {}
+        }
+    },
+    {
+        "airtable": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Mobile",
+                "Databases",
+                "Productivity Software",
+                "Collaboration Software"
+            ],
+            "size": "",
+            "stack": {
+                "Android SDK": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Node.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "React": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "Xcode": {
+                    "category": "Integrated Development Environment (IDE)",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "benchling": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Biotechnology",
+                "Bioinformatics",
+                "Synthetic Biology",
+                "Cloud Data Services"
+            ],
+            "size": "1-10",
+            "stack": {
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "Backbone.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Chartbeat": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "CoffeeScript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "D3.js": {
+                    "category": "Charts",
+                    "root_category": "Engineering"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Intercom": {
+                    "category": "Customer Relationship Management (CRM)",
+                    "root_category": "Sales and Marketing"
+                },
+                "Mailgun": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Python": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "React": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "Twitter Bootstrap": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "Underscore": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "Webpack": {
+                    "category": "Build Tools",
+                    "root_category": "Engineering"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "affinity": {
+            "locations": [],
+            "markets": [],
+            "size": null,
+            "stack": {}
+        }
+    },
+    {
+        "theartistunion": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Music",
+                "Mobile",
+                "Communities"
+            ],
+            "size": "1-10",
+            "stack": {
+                "Algolia": {
+                    "category": "Search",
+                    "root_category": "Engineering"
+                },
+                "Amazon CloudFront": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "Amazon S3": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "Amplitude": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "Git": {
+                    "category": "Code Management",
+                    "root_category": "Engineering"
+                },
+                "Heroku": {
+                    "category": "Platform as a Service",
+                    "root_category": "DevOps"
+                },
+                "Memcached": {
+                    "category": "Caching",
+                    "root_category": "Engineering"
+                },
+                "New Relic": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "PostgreSQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "React": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "Redis": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Ruby on Rails": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "SendGrid": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Sidekiq": {
+                    "category": "Message Queue",
+                    "root_category": "Engineering"
+                },
+                "imgix": {
+                    "category": "Image Processing",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "comma-ai": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Deep Learning",
+                "Machine Learning",
+                "Artificial Intelligence"
+            ],
+            "size": "",
+            "stack": {}
+        }
+    },
+    {
+        "gigster": {
+            "locations": [
+                "Tokyo"
+            ],
+            "markets": [
+                "Music",
+                "Music Venues"
+            ],
+            "size": "",
+            "stack": {}
+        }
+    },
+    {
+        "triplebyte": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Software",
+                "Recruiting",
+                "Developer Tools"
+            ],
+            "size": "1-10",
+            "stack": {
+                "Algolia": {
+                    "category": "Search",
+                    "root_category": "Engineering"
+                },
+                "Amazon CloudFront": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Mailgun": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Olark": {
+                    "category": "Customer Support",
+                    "root_category": "Operations"
+                },
+                "Ruby": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Ruby on Rails": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "opendoor": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "E-Commerce",
+                "Real Estate"
+            ],
+            "size": "51-200",
+            "stack": {
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Python": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "R": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Ruby": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Ruby on Rails": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "angellist": {
+            "locations": [
+                "New York City",
+                "San Francisco"
+            ],
+            "markets": [
+                "Startups",
+                "Recruiting",
+                "Venture Capital"
+            ],
+            "size": "11-50",
+            "stack": {
+                "Amazon CloudFront": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "Amazon EC2": {
+                    "category": "Cloud Hosting",
+                    "root_category": "DevOps"
+                },
+                "Amazon EC2 Container Service": {
+                    "category": "Container Tools",
+                    "root_category": "DevOps"
+                },
+                "Amazon S3": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "Backbone.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Balsamiq": {
+                    "category": "Design Tools",
+                    "root_category": "Products"
+                },
+                "CloudFlare": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "CoffeeScript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Docker": {
+                    "category": "Container Tools",
+                    "root_category": "DevOps"
+                },
+                "Dropbox": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "GitHub": {
+                    "category": "Code Management",
+                    "root_category": "Engineering"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Google Drive": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Jenkins": {
+                    "category": "Continuous Integration",
+                    "root_category": "DevOps"
+                },
+                "Memcached": {
+                    "category": "Caching",
+                    "root_category": "Engineering"
+                },
+                "Mixpanel": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "MySQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Redis": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "RequireJS": {
+                    "category": "Package Management",
+                    "root_category": "Engineering"
+                },
+                "Rollbar": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Ruby": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Ruby on Rails": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "RubyMine": {
+                    "category": "Integrated Development Environment (IDE)",
+                    "root_category": "Engineering"
+                },
+                "Slack": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Vagrant": {
+                    "category": "Container Tools",
+                    "root_category": "DevOps"
+                },
+                "VirtualBox": {
+                    "category": "Container Tools",
+                    "root_category": "DevOps"
+                },
+                "Xcode": {
+                    "category": "Integrated Development Environment (IDE)",
+                    "root_category": "Engineering"
+                },
+                "jQuery": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "quip": {
+            "locations": [],
+            "markets": [],
+            "size": "",
+            "stack": {
+                "Amazon CloudFront": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Mandrill": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Node.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Optimizely": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "Socket.IO": {
+                    "category": "Messaging",
+                    "root_category": "Engineering"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "soylent": {
+            "locations": [
+                "Los Angeles"
+            ],
+            "markets": [
+                "Nutrition",
+                "Humanitarian",
+                "Biotechnology",
+                "Food and Beverages"
+            ],
+            "size": "11-50",
+            "stack": {
+                "Amazon S3": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "Asana": {
+                    "category": "Project Management",
+                    "root_category": "Products"
+                },
+                "Codeship": {
+                    "category": "Continuous Integration",
+                    "root_category": "DevOps"
+                },
+                "Django": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Docker": {
+                    "category": "Container Tools",
+                    "root_category": "DevOps"
+                },
+                "Dropbox": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "Git": {
+                    "category": "Code Management",
+                    "root_category": "Engineering"
+                },
+                "GitHub": {
+                    "category": "Code Management",
+                    "root_category": "Engineering"
+                },
+                "Gusto": {
+                    "category": "H.R.",
+                    "root_category": "Operations"
+                },
+                "Heroku": {
+                    "category": "Platform as a Service",
+                    "root_category": "DevOps"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Mandrill": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "New Relic": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Pingdom": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "PostgreSQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Python": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "RabbitMQ": {
+                    "category": "Message Queue",
+                    "root_category": "Engineering"
+                },
+                "Rainforest QA": {
+                    "category": "Testing Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Shopify": {
+                    "category": "E-commerce",
+                    "root_category": "Sales and Marketing"
+                },
+                "Slack": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Stripe": {
+                    "category": "Payments",
+                    "root_category": "Operations"
+                },
+                "Zendesk": {
+                    "category": "Customer Support",
+                    "root_category": "Operations"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "color-genomics": {
+            "locations": [
+                "Burlingame"
+            ],
+            "markets": [
+                "Genetic Testing"
+            ],
+            "size": "",
+            "stack": {}
+        }
+    },
+    {
+        "blend-labs": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Banking",
+                "Big Data",
+                "Consumer Lending",
+                "Enterprise Software"
+            ],
+            "size": "51-200",
+            "stack": {
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "AngularJS": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "D3.js": {
+                    "category": "Charts",
+                    "root_category": "Engineering"
+                },
+                "GitHub": {
+                    "category": "Code Management",
+                    "root_category": "Engineering"
+                },
+                "Go": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Java": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "MongoDB": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Node.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Python": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Redis": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Scala": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Twitter Bootstrap": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "checkr": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Software",
+                "Software Engineering"
+            ],
+            "size": "11-50",
+            "stack": {
+                "Amazon CloudFront": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "Amazon EC2": {
+                    "category": "Cloud Hosting",
+                    "root_category": "DevOps"
+                },
+                "Amazon S3": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "Angular Material": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "AngularJS": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Bower": {
+                    "category": "Package Management",
+                    "root_category": "Engineering"
+                },
+                "CircleCI": {
+                    "category": "Continuous Integration",
+                    "root_category": "DevOps"
+                },
+                "CloudFlare": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "Code Climate": {
+                    "category": "Code Management",
+                    "root_category": "Engineering"
+                },
+                "Heroku": {
+                    "category": "Platform as a Service",
+                    "root_category": "DevOps"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "MongoDB": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "MongoLab": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "MySQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "New Relic": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Olark": {
+                    "category": "Customer Support",
+                    "root_category": "Operations"
+                },
+                "RabbitMQ": {
+                    "category": "Message Queue",
+                    "root_category": "Engineering"
+                },
+                "Redis": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Ruby": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Sinatra": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Slack": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "TrackJS": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Trello": {
+                    "category": "Project Management",
+                    "root_category": "Products"
+                },
+                "Twitter Bootstrap": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "gulp": {
+                    "category": "Build Tools",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "wealthfront": {
+            "locations": [
+                "Redwood City"
+            ],
+            "markets": [
+                "Fin Tech",
+                "Finance Technology"
+            ],
+            "size": "51-200",
+            "stack": {
+                "Amazon CloudFront": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "Amazon Redshift": {
+                    "category": "Data Processing",
+                    "root_category": "Engineering"
+                },
+                "Apache Spark": {
+                    "category": "Data Processing",
+                    "root_category": "Engineering"
+                },
+                "Chef": {
+                    "category": "Server Management",
+                    "root_category": "DevOps"
+                },
+                "D3.js": {
+                    "category": "Charts",
+                    "root_category": "Engineering"
+                },
+                "Docker": {
+                    "category": "Container Tools",
+                    "root_category": "DevOps"
+                },
+                "HTML5": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Hadoop": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Java": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Jenkins": {
+                    "category": "Continuous Integration",
+                    "root_category": "DevOps"
+                },
+                "Logstash": {
+                    "category": "Log Management",
+                    "root_category": "DevOps"
+                },
+                "Mocha": {
+                    "category": "Testing Frameworks",
+                    "root_category": "Engineering"
+                },
+                "MySQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "React": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "Redis": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Vagrant": {
+                    "category": "Container Tools",
+                    "root_category": "DevOps"
+                },
+                "Zendesk": {
+                    "category": "Customer Support",
+                    "root_category": "Operations"
+                },
+                "jQuery": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "affirm": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Credit",
+                "Payments",
+                "Financial Services"
+            ],
+            "size": "11-50",
+            "stack": {
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "Flask": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Java": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Optimizely": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "Python": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "SendGrid": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "jQuery UI": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "docker": {
+            "locations": [],
+            "markets": [],
+            "size": null,
+            "stack": {}
+        }
+    },
+    {
+        "wish": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "E-Commerce"
+            ],
+            "size": "",
+            "stack": {}
+        }
+    },
+    {
+        "doordash": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Local",
+                "Mobile",
+                "Logistics",
+                "Marketplaces"
+            ],
+            "size": "51-200",
+            "stack": {
+                "Amazon CloudFront": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "Backbone.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "CloudFlare": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "CoffeeScript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Django": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Git": {
+                    "category": "Code Management",
+                    "root_category": "Engineering"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "HTML5": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Heroku": {
+                    "category": "Platform as a Service",
+                    "root_category": "DevOps"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Mandrill": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "New Relic": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "PostgreSQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Python": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Redis": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "RequireJS": {
+                    "category": "Package Management",
+                    "root_category": "Engineering"
+                },
+                "Segment": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "SendGrid": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Twitter Bootstrap": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "Underscore": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "meteor": {
+            "locations": [],
+            "markets": [],
+            "size": null,
+            "stack": {}
+        }
+    },
+    {
+        "medium": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Mobile",
+                "Publishing",
+                "Digital Media",
+                "Blogging Platforms"
+            ],
+            "size": "51-200",
+            "stack": {
+                "Amazon DynamoDB": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "Go": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "MongoDB": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Node.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Redis": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "clever": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Big Data",
+                "Education",
+                "K-12 Education",
+                "Application Platforms"
+            ],
+            "size": "51-200",
+            "stack": {
+                "Amazon EC2": {
+                    "category": "Cloud Hosting",
+                    "root_category": "DevOps"
+                },
+                "Amazon S3": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "AngularJS": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Asana": {
+                    "category": "Project Management",
+                    "root_category": "Products"
+                },
+                "Backbone.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Browserify": {
+                    "category": "Package Management",
+                    "root_category": "Engineering"
+                },
+                "CoffeeScript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Docker": {
+                    "category": "Container Tools",
+                    "root_category": "DevOps"
+                },
+                "Drone.io": {
+                    "category": "Continuous Integration",
+                    "root_category": "DevOps"
+                },
+                "Dropbox": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "Gearman": {
+                    "category": "Message Queue",
+                    "root_category": "Engineering"
+                },
+                "Git": {
+                    "category": "Code Management",
+                    "root_category": "Engineering"
+                },
+                "GitHub": {
+                    "category": "Code Management",
+                    "root_category": "Engineering"
+                },
+                "Go": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Heroku": {
+                    "category": "Platform as a Service",
+                    "root_category": "DevOps"
+                },
+                "Jade": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Keen IO": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "MailChimp": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Mandrill": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Mixpanel": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "Mocha": {
+                    "category": "Testing Frameworks",
+                    "root_category": "Engineering"
+                },
+                "MongoDB": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "New Relic": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Node.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "PagerDuty": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Pingdom": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "PostgreSQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Python": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Redis": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Salt": {
+                    "category": "Server Management",
+                    "root_category": "DevOps"
+                },
+                "Sentry": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Slack": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Underscore": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "Vagrant": {
+                    "category": "Container Tools",
+                    "root_category": "DevOps"
+                },
+                "Zendesk": {
+                    "category": "Customer Support",
+                    "root_category": "Operations"
+                },
+                "boot2docker": {
+                    "category": "Container Tools",
+                    "root_category": "DevOps"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                },
+                "npm": {
+                    "category": "Package Management",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "reddit": {
+            "locations": [
+                "New York",
+                "San Francisco"
+            ],
+            "markets": [
+                "Social News"
+            ],
+            "size": "",
+            "stack": {
+                "Akamai": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "Amazon EC2": {
+                    "category": "Cloud Hosting",
+                    "root_category": "DevOps"
+                },
+                "Amazon S3": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "Backbone.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Cassandra": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "CloudFlare": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "Flask": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Gunicorn": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                },
+                "Memcached": {
+                    "category": "Caching",
+                    "root_category": "Engineering"
+                },
+                "Pingdom": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "PostgreSQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Python": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "RabbitMQ": {
+                    "category": "Message Queue",
+                    "root_category": "Engineering"
+                },
+                "Stripe": {
+                    "category": "Payments",
+                    "root_category": "Operations"
+                },
+                "Underscore": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "iDoneThis": {
+                    "category": "Project Management",
+                    "root_category": "Products"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "asana": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Software",
+                "Collaboration",
+                "Task Management",
+                "Productivity Software"
+            ],
+            "size": "51-200",
+            "stack": {
+                "Amazon CloudFront": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "Amazon EC2": {
+                    "category": "Cloud Hosting",
+                    "root_category": "DevOps"
+                },
+                "Amazon ElastiCache": {
+                    "category": "Caching",
+                    "root_category": "Engineering"
+                },
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "Dropbox": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "Elasticsearch": {
+                    "category": "Search",
+                    "root_category": "Engineering"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "MySQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Node.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Optimizely": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "Phabricator": {
+                    "category": "Code Management",
+                    "root_category": "Engineering"
+                },
+                "Recurly": {
+                    "category": "Payments",
+                    "root_category": "Operations"
+                },
+                "Redis": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Scala": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "SendGrid": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Swift": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Swiftype": {
+                    "category": "Search",
+                    "root_category": "Engineering"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "oscar-health": {
+            "locations": [
+                "New York City"
+            ],
+            "markets": [
+                "Startups",
+                "Technology",
+                "Health Care",
+                "Customer Service"
+            ],
+            "size": "201-500",
+            "stack": {}
+        }
+    },
+    {
+        "quora": {
+            "locations": [
+                "Mountain View"
+            ],
+            "markets": [
+                "Q&A",
+                "Search",
+                "Social Media",
+                "Knowledge Management"
+            ],
+            "size": "51-200",
+            "stack": {
+                "Amazon EBS": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "Amazon EC2": {
+                    "category": "Cloud Hosting",
+                    "root_category": "DevOps"
+                },
+                "Amazon Route 53": {
+                    "category": "Domain Management",
+                    "root_category": "DevOps"
+                },
+                "Amazon S3": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "Amazon SQS": {
+                    "category": "Message Queue",
+                    "root_category": "Engineering"
+                },
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "AnyPerk": {
+                    "category": "H.R.",
+                    "root_category": "Operations"
+                },
+                "Asana": {
+                    "category": "Project Management",
+                    "root_category": "Products"
+                },
+                "C++": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Dyn": {
+                    "category": "Domain Management",
+                    "root_category": "DevOps"
+                },
+                "Git": {
+                    "category": "Code Management",
+                    "root_category": "Engineering"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "HipChat": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Memcached": {
+                    "category": "Caching",
+                    "root_category": "Engineering"
+                },
+                "MySQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Phabricator": {
+                    "category": "Code Management",
+                    "root_category": "Engineering"
+                },
+                "Python": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "SendGrid": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Zendesk": {
+                    "category": "Customer Support",
+                    "root_category": "Operations"
+                },
+                "Zepto": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "zenefits": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Human Resources",
+                "Enterprise Software",
+                "Health and Insurance"
+            ],
+            "size": "501-1000",
+            "stack": {
+                "Amazon CloudFront": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "Chartbeat": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "ClickTale": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "Ember.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Heap": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "Ionic": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "Jasmine": {
+                    "category": "Testing Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "KISSmetrics": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "Mixpanel": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "MySQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Optimizely": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "Perl": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Pingdom": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Python": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Twitter Bootstrap": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "jQuery": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "gusto": {
+            "locations": [
+                "Indianapolis"
+            ],
+            "markets": [
+                "Email",
+                "Mobile",
+                "Social",
+                "Productivity Software"
+            ],
+            "size": "1-10",
+            "stack": {
+                "Java": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Node.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "PostgreSQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "buzzfeed": {
+            "locations": [
+                "New York City"
+            ],
+            "markets": [
+                "News",
+                "Social Media",
+                "Entertainment"
+            ],
+            "size": "",
+            "stack": {
+                "Apache HTTP Server": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Mustache": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "SendGrid": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Slack": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                }
+            }
+        }
+    },
+    {
+        "magic-leap": {
+            "locations": [],
+            "markets": [],
+            "size": "",
+            "stack": {
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Mailgun": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                }
+            }
+        }
+    },
+    {
+        "teespring": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Fashion",
+                "E-Commerce",
+                "Crowdfunding"
+            ],
+            "size": "11-50",
+            "stack": {
+                "Amazon CloudFront": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "Amazon RDS": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Amazon S3": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "CircleCI": {
+                    "category": "Continuous Integration",
+                    "root_category": "DevOps"
+                },
+                "Desk.com": {
+                    "category": "Customer Support",
+                    "root_category": "Operations"
+                },
+                "Flowdock": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "GitHub": {
+                    "category": "Code Management",
+                    "root_category": "Engineering"
+                },
+                "Grasshopper": {
+                    "category": "Voice and SMS",
+                    "root_category": "Sales and Marketing"
+                },
+                "Heroku": {
+                    "category": "Platform as a Service",
+                    "root_category": "DevOps"
+                },
+                "Honeybadger": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Nicereply": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "Olark": {
+                    "category": "Customer Support",
+                    "root_category": "Operations"
+                },
+                "Perfect Audience": {
+                    "category": "Advertising",
+                    "root_category": "Products"
+                },
+                "PostgreSQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Ruby": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Ruby on Rails": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "SendGrid": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Stripe": {
+                    "category": "Payments",
+                    "root_category": "Operations"
+                },
+                "Trello": {
+                    "category": "Project Management",
+                    "root_category": "Products"
+                }
+            }
+        }
+    },
+    {
+        "intercom": {
+            "locations": [
+                "Dublin",
+                "San Francisco"
+            ],
+            "markets": [
+                "Social CRM",
+                "Customer Service",
+                "Marketing Automation",
+                "Customer Support Tools"
+            ],
+            "size": "51-200",
+            "stack": {
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "FullContact": {
+                    "category": "Lead Generation",
+                    "root_category": "Sales and Marketing"
+                },
+                "Stripe": {
+                    "category": "Payments",
+                    "root_category": "Operations"
+                }
+            }
+        }
+    },
+    {
+        "stripe": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Payments",
+                "Credit Cards",
+                "Developer Tools",
+                "Cloud Infrastructure"
+            ],
+            "size": "201-500",
+            "stack": {
+                "Amazon Route 53": {
+                    "category": "Domain Management",
+                    "root_category": "DevOps"
+                },
+                "Amazon SES": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Asana": {
+                    "category": "Project Management",
+                    "root_category": "Products"
+                },
+                "CircleCI": {
+                    "category": "Continuous Integration",
+                    "root_category": "DevOps"
+                },
+                "Framer": {
+                    "category": "Design Tools",
+                    "root_category": "Products"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Impala": {
+                    "category": "Data Processing",
+                    "root_category": "Engineering"
+                },
+                "Mailgun": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Mandrill": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Mixpanel": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "NSQ": {
+                    "category": "Message Queue",
+                    "root_category": "Engineering"
+                },
+                "PagerDuty": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Ruby": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Zendesk": {
+                    "category": "Customer Support",
+                    "root_category": "Operations"
+                }
+            }
+        }
+    },
+    {
+        "slack": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Enterprise Software",
+                "Unifed Communications"
+            ],
+            "size": "501-1000",
+            "stack": {
+                "Amazon CloudFront": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "Android SDK": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "Apache HTTP Server": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                },
+                "Fastly": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "Java": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Mailgun": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "MySQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Objective-C": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "PHP": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "PagerDuty": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "SendGrid": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Slack": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Solr": {
+                    "category": "Search",
+                    "root_category": "Engineering"
+                },
+                "Zendesk": {
+                    "category": "Customer Support",
+                    "root_category": "Operations"
+                }
+            }
+        }
+    },
+    {
+        "lyft": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Peer-to-Peer",
+                "Transportation",
+                "College Campuses",
+                "Collaborative Consumption"
+            ],
+            "size": "201-500",
+            "stack": {
+                "Amazon EC2": {
+                    "category": "Cloud Hosting",
+                    "root_category": "DevOps"
+                },
+                "Android SDK": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "AngularJS": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "HelloSign": {
+                    "category": "Legal",
+                    "root_category": "Operations"
+                },
+                "Mailgun": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "MongoDB": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Objective-C": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Optimizely": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "PHP": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Rollbar": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Stripe": {
+                    "category": "Payments",
+                    "root_category": "Operations"
+                },
+                "Sumo Logic": {
+                    "category": "Log Management",
+                    "root_category": "DevOps"
+                }
+            }
+        }
+    },
+    {
+        "uber": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Technology"
+            ],
+            "size": "1001-5000",
+            "stack": {
+                "AngelList Talent": {
+                    "category": "Recruiting",
+                    "root_category": "Operations"
+                },
+                "Asana": {
+                    "category": "Project Management",
+                    "root_category": "Products"
+                },
+                "Backbone.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Braintree": {
+                    "category": "Payments",
+                    "root_category": "Operations"
+                },
+                "Brunch": {
+                    "category": "Build Tools",
+                    "root_category": "Engineering"
+                },
+                "Crazy Egg": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Heap": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "Java": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Mixpanel": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "MongoDB": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "MySQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Node.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Objective-C": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Optimizely": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "PayPal": {
+                    "category": "Payments",
+                    "root_category": "Operations"
+                },
+                "PostgreSQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Python": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Redis": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "RequireJS": {
+                    "category": "Package Management",
+                    "root_category": "Engineering"
+                },
+                "SendGrid": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Sentry": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Twilio": {
+                    "category": "Voice and SMS",
+                    "root_category": "Sales and Marketing"
+                },
+                "Zendesk": {
+                    "category": "Customer Support",
+                    "root_category": "Operations"
+                },
+                "iDoneThis": {
+                    "category": "Project Management",
+                    "root_category": "Products"
+                },
+                "jQuery": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "pinterest": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "E-Commerce",
+                "Curated Web",
+                "Social Media",
+                "Social Commerce"
+            ],
+            "size": "501-1000",
+            "stack": {
+                "Amazon EC2": {
+                    "category": "Cloud Hosting",
+                    "root_category": "DevOps"
+                },
+                "Amazon Route 53": {
+                    "category": "Domain Management",
+                    "root_category": "DevOps"
+                },
+                "Amazon S3": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "AnyPerk": {
+                    "category": "H.R.",
+                    "root_category": "Operations"
+                },
+                "Asana": {
+                    "category": "Project Management",
+                    "root_category": "Products"
+                },
+                "Backbone.js": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Cassandra": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Crittercism": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Django": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "EdgeCast": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Hadoop": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "HipChat": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Memcached": {
+                    "category": "Caching",
+                    "root_category": "Engineering"
+                },
+                "MongoDB": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "MySQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Pingdom": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Python": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Redis": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "SendGrid": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Sentry": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Underscore": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "Varnish": {
+                    "category": "Caching",
+                    "root_category": "Engineering"
+                },
+                "Webpack": {
+                    "category": "Build Tools",
+                    "root_category": "Engineering"
+                },
+                "Zendesk": {
+                    "category": "Customer Support",
+                    "root_category": "Operations"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    },
+    {
+        "airbnb": {
+            "locations": [
+                "San Francisco"
+            ],
+            "markets": [
+                "Hotels",
+                "Marketplaces",
+                "Peer-to-Peer",
+                "Online Travel"
+            ],
+            "size": "1001-5000",
+            "stack": {
+                "Amazon CloudFront": {
+                    "category": "Content Delivery Network (CDN)",
+                    "root_category": "DevOps"
+                },
+                "Amazon CloudWatch": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Amazon EBS": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "Amazon EC2": {
+                    "category": "Cloud Hosting",
+                    "root_category": "DevOps"
+                },
+                "Amazon ElastiCache": {
+                    "category": "Caching",
+                    "root_category": "Engineering"
+                },
+                "Amazon RDS": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Amazon Route 53": {
+                    "category": "Domain Management",
+                    "root_category": "DevOps"
+                },
+                "Amazon S3": {
+                    "category": "Cloud Storage",
+                    "root_category": "DevOps"
+                },
+                "Apache Mesos": {
+                    "category": "Server Management",
+                    "root_category": "DevOps"
+                },
+                "Asana": {
+                    "category": "Project Management",
+                    "root_category": "Products"
+                },
+                "Braintree": {
+                    "category": "Payments",
+                    "root_category": "Operations"
+                },
+                "Campaign Monitor": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Chef": {
+                    "category": "Server Management",
+                    "root_category": "DevOps"
+                },
+                "Datadog": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "GitHub": {
+                    "category": "Code Management",
+                    "root_category": "Engineering"
+                },
+                "Google Apps": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Hadoop": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "InVision": {
+                    "category": "Design Tools",
+                    "root_category": "Products"
+                },
+                "Java": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Javascript": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Kibana": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Logstash": {
+                    "category": "Log Management",
+                    "root_category": "DevOps"
+                },
+                "Mixpanel": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "Mocha": {
+                    "category": "Testing Frameworks",
+                    "root_category": "Engineering"
+                },
+                "MySQL": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "New Relic": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Nexmo": {
+                    "category": "Voice and SMS",
+                    "root_category": "Sales and Marketing"
+                },
+                "React": {
+                    "category": "Libraries and SDKs",
+                    "root_category": "Engineering"
+                },
+                "Redis": {
+                    "category": "Databases",
+                    "root_category": "Engineering"
+                },
+                "Ruby": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Ruby on Rails": {
+                    "category": "Application Frameworks",
+                    "root_category": "Engineering"
+                },
+                "Sass": {
+                    "category": "Languages",
+                    "root_category": "Engineering"
+                },
+                "Scout": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "SendGrid": {
+                    "category": "Email",
+                    "root_category": "Sales and Marketing"
+                },
+                "Sentry": {
+                    "category": "Monitoring",
+                    "root_category": "DevOps"
+                },
+                "Slack": {
+                    "category": "Communications",
+                    "root_category": "Operations"
+                },
+                "Solano CI": {
+                    "category": "Continuous Integration",
+                    "root_category": "DevOps"
+                },
+                "Twilio": {
+                    "category": "Voice and SMS",
+                    "root_category": "Sales and Marketing"
+                },
+                "Urban Airship": {
+                    "category": "Messaging",
+                    "root_category": "Engineering"
+                },
+                "Vagrant": {
+                    "category": "Container Tools",
+                    "root_category": "DevOps"
+                },
+                "Visual Website Optimizer": {
+                    "category": "Analytics",
+                    "root_category": "Products"
+                },
+                "Webpack": {
+                    "category": "Build Tools",
+                    "root_category": "Engineering"
+                },
+                "nginx": {
+                    "category": "Web Servers",
+                    "root_category": "Engineering"
+                }
+            }
+        }
+    }
+]

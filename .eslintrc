@@ -1,15 +1,9 @@
 {
-  "env": {
-    "browser": true,
-    "node": true,
-    "es6": true
-  },
-
-  "plugins": ["react"],
-
-  "parserOptions": {
-      "ecmaFeatures": {
-        "jsx": true
-      }
-  },
+    "extends": "airbnb",
+    "installedESLint": true,
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ]
 }

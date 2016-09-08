@@ -1,7 +1,28 @@
-from django.shortcuts import render, get_object_or_404
-from .models import NonMediaItem
+from django.contrib.auth.models import User
+from rest_framework import viewsets, permissions
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from rest_framework.reverse import reverse
 
-# Create your views here.
-def detail(request, item_id):
-    i = get_object_or_404(NonMediaItem, pk=item_id)
-    return render(request, 'ecommerce/detail.html', {'item': i, 'id': item_id})
+from .models import NonMediaItem
+from .permissions import IsOwnerOrReadOnly
+from .serializers import UserSerializer, NonMediaItemSerializer
+
+class UserViewSet(viewsets.ModelViewSet):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+
+class NonMediaItemViewSet(viewsets.ModelViewSet):
+    queryset = NonMediaItem.objects.all()
+    serializer_class = NonMediaItemSerializer
+    permission_class = (permissions.IsAuthenticatedOrReadOnly, IsOwnerOrReadOnly)
+
+    def perform_create(self, serializer):
+        serializer.save(creator=self.request.user)
+
+@api_view(['GET'])
+def api_root(request, format=None):
+    return Response({
+        'users': reverse('user-list', request=request, format=format),
+        'snippets': reverse('snippet-list', request=request, format=format)
+    })
